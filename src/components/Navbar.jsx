@@ -43,55 +43,52 @@ const Navigation = React.forwardRef((props, ref) => {
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" className="toggler" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="navbar-nav mr-auto">
-          {/* {
-            <NavLink className="nav-item lead">
-              <Link to={process.env.PUBLIC_URL + "/blog"}>Blog</Link>
-            </NavLink>
-          } */}
-          {repos.show && (
+      <Nav className="navbar-nav mr-auto">
+        {repos.show && (
+          <NavLink
+            href={process.env.PUBLIC_URL + "/#projects"}
+          >
+            Projects
+          </NavLink>
+        )}
+        <NavLink
+          className="nav-item lead"
+          href={about.resume}
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          Resume
+        </NavLink>
+        {about.show && (
+          <NavLink
+            className="nav-item lead"
+            href={process.env.PUBLIC_URL + "/#aboutme"}
+          >
+            About
+          </NavLink>
+        )}
+        {skills.show && (
+          <NavLink
+            className="nav-item lead"
+            href={process.env.PUBLIC_URL + "/#skills"}
+          >
+            Skills
+          </NavLink>
+        )}
+      </Nav>
+      {/* Move "My Blog" link to the right side */}
+      <Nav>
+        <NavLink
+          className="nav-item lead"
+          href="https://rachel19940227.github.io/home/myblog"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          My Blog
+        </NavLink>
+      </Nav>
+    </Navbar.Collapse>
 
-            <NavLink
-              href={process.env.PUBLIC_URL + "/#projects"}
-            >
-              Projects
-            </NavLink>
-          )}
-          <NavLink
-            className="nav-item lead"
-            href={about.resume}
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            Resume
-          </NavLink>
-          {about.show && (
-            <NavLink
-              className="nav-item lead"
-              href={process.env.PUBLIC_URL + "/#aboutme"}
-            >
-              About
-            </NavLink>
-          )}
-          {skills.show && (
-            <NavLink
-              className="nav-item lead"
-              href={process.env.PUBLIC_URL + "/#skills"}
-            >
-              Skills
-            </NavLink>
-          )}
-          {/* Add "My Blog" link here */}
-          <NavLink
-            className="nav-item lead"
-            href="https://yourblogwebsite.com"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            My Blog
-          </NavLink>
-        </Nav>
-      </Navbar.Collapse>
     </Navbar>
   );
 });
