@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Rachel",
   middleName: "",
   lastName: "Zu",
-  message: " Passionate about changing the world with technology. ",
+  message: " Computer Programming Student | Product Manager | IT consultant. ",
   icons: [
     {
       image: "fa-github",
@@ -23,10 +23,10 @@ const mainBody = {
       image: "fa-linkedin",
       url: "https://www.linkedin.com/in/rachel-zu-bab662293/",
     },
-    {
-      image: "fa-twitter",
-      url: "https://www.twitter.com/hashirshoaeb/",
-    },
+    // {
+    //   image: "fa-twitter",
+    //   url: "https://www.twitter.com/hashirshoaeb/",
+    // },
   ],
 };
 
@@ -51,7 +51,7 @@ const about = {
   imageSize: 375,
   message:
     "My name is Rachel Zu. I am a Computer Programming student at Algonquin College with GPA 3.9/4.0, engaging in coding projects that demonstrate my proficiency in Java, web development and Database.My experience as an Product Manager at iFLYTEK Co. Ltd for 5 years, which honed my soft skills in cross-functional teamwork, communication, and problem-solving. My goal is to pursue this passion within the field of software engineering.",
-  resume: "https://docs.google.com/document/d/152eS5YZUGnFx8hBIfWK-NwamxesAdooq/edit?usp=drive_link&ouid=104830970896908131607&rtpof=true&sd=true",
+  resume: "https://drive.google.com/file/d/1uHI6T-n457QKIaaBDJ3a7PU4iGiloIUP/view?usp=drive_link",
 };
 
 // PROJECTS SECTION
@@ -63,7 +63,7 @@ const repos = {
   show: true,
   heading: "Recent Projects",
   gitHubUsername: "Rachel19940227", //i.e."johnDoe12Gh"
-  reposLength: 6,
+  reposLength: 4,
   specificRepos: [],
 };
 
