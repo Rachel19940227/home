@@ -6,26 +6,22 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Hashir",
+  firstName: "Rachel",
   middleName: "",
-  lastName: "Shoaib",
+  lastName: "Zu",
   message: " Passionate about changing the world with technology. ",
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/hashirshoaeb",
-    },
-    {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/hashirshoaeb",
+      url: "https://github.com/Rachel19940227",
     },
     {
       image: "fa-instagram",
-      url: "https://www.instagram.com/hashirshoaeb/",
+      url: "https://www.instagram.com/rachel0227/",
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
+      url: "https://www.linkedin.com/in/rachel-zu-bab662293/",
     },
     {
       image: "fa-twitter",
@@ -51,11 +47,11 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/hashirshoaeb.png"),
+  imageLink: require("../editable-stuff/myself.png"),
   imageSize: 375,
   message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+    "My name is Rachel Zu. I am a Computer Programming student at Algonquin College with GPA 3.9/4.0, engaging in coding projects that demonstrate my proficiency in Java, web development and Database.My experience as an Product Manager at iFLYTEK Co. Ltd for 5 years, which honed my soft skills in cross-functional teamwork, communication, and problem-solving. My goal is to pursue this passion within the field of software engineering.",
+  resume: "https://docs.google.com/document/d/152eS5YZUGnFx8hBIfWK-NwamxesAdooq/edit?usp=drive_link&ouid=104830970896908131607&rtpof=true&sd=true",
 };
 
 // PROJECTS SECTION
@@ -66,8 +62,8 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
-  reposLength: 4,
+  gitHubUsername: "Rachel19940227", //i.e."johnDoe12Gh"
+  reposLength: 6,
   specificRepos: [],
 };
 
@@ -100,23 +96,23 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
+    { name: "Java", value: 90 },
     { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
+    { name: "Git/GitHub", value: 85 },
+    { name: "PHP", value: 65 },
     { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
+    { name: "Spring Boot", value: 65 },
     { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "Linux", value: 80 },
   ],
   softSkills: [
-    { name: "Goal-Oriented", value: 80 },
-    { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
-    { name: "Adaptability", value: 85 },
+    { name: "Product-Design", value: 80 },
+    { name: "Requirement-Analysis", value: 90 },
+    { name: "Reporting", value: 75 },
+    { name: "Documentation", value: 85 },
     { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
+    { name: "Quick-Learner", value: 90 },
+    { name: "Collaboration", value: 70 },
     { name: "Creativity", value: 90 },
   ],
 };
@@ -126,8 +122,8 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "I'm currently looking for co-op Software Engineering or QA Testing opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+  email: "zu000001@algonquinlive.com",
 };
 
 const experiences = {
