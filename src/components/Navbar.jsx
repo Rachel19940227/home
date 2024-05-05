@@ -80,7 +80,7 @@ const Navigation = React.forwardRef((props, ref) => {
       <Nav>
         <NavLink
           className="nav-item lead"
-          href="https://rachel19940227.github.io/home/myblog"
+          href="https://rachelzu940227.github.io/"
           target="_blank"
           rel="noreferrer noopener"
         >
