@@ -51,7 +51,7 @@ const about = {
   imageSize: 375,
   message:
     "My name is Rachel Zu. I am a Computer Programming student at Algonquin College with GPA 3.9/4.0, engaging in coding projects that demonstrate my proficiency in Java, web development and Database.My experience as an Product Manager at iFLYTEK Co. Ltd for 5 years, which honed my soft skills in cross-functional teamwork, communication, and problem-solving. My goal is to pursue this passion within the field of software engineering.",
-  resume: "https://drive.google.com/file/d/1uHI6T-n457QKIaaBDJ3a7PU4iGiloIUP/view?usp=drive_link",
+  resume: "https://drive.google.com/file/d/1_Le813d-8Z17aGNZgFowmIC_TTHettHV/view?usp=drive_link",
 };
 
 // PROJECTS SECTION
